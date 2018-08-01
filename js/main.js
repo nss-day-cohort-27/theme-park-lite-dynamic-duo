@@ -4,3 +4,4 @@
 let parkInfo = require('./parkInfo.js');
 let attractionTypes = require("./attractionTypes.js")
 let areaDbInfo = require('./areas.js');
+let attractions = require("./attractions.js");
