@@ -15,7 +15,7 @@ dbCalls.fetchParkInfo = () => {
       .then(res => res.json())
       .then((result) => {
         // console.log(typeof result);
-        console.log(result);
+        // console.log(result);
         parkInfo = result;
         return parkInfo;
       },
@@ -55,6 +55,7 @@ dbCalls.fetchAreas = () => {
     .then(res => res.json())
     .then((result) => {
       // console.log(typeof result);
+      console.log(result);
       areaTypes = result;
       return areaTypes;
     },
@@ -64,7 +65,7 @@ dbCalls.fetchAreas = () => {
 };
 
 dbCalls.getParkInfo = () => {
-  return parkInfo;  
+  return parkInfo;
 };
 
 
