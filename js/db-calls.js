@@ -42,6 +42,7 @@ dbCalls.fetchTypes = () => {
     .then(res => res.json())
     .then((result) => {
       // console.log(typeof result);
+      console.log(result);
       attractionTypes = result;
       return attractionTypes;
     },
@@ -67,6 +68,7 @@ dbCalls.fetchAreas = () => {
 dbCalls.getParkInfo = () => {
   return parkInfo;
 };
+
 
 
 
