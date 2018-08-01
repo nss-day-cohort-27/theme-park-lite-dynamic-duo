@@ -4,7 +4,6 @@ let db = require('./db-calls.js');
 
 
 
-
 let attractionTypes = {};
 
 function capitalLetter (string) {
