@@ -63,3 +63,10 @@
     background-color: whitesmoke;
     padding: .5em;
 }
+.batImage{
+    margin: auto;
+    text-align: center;
+}
+.batImage p{
+    text-align: center;
+}
