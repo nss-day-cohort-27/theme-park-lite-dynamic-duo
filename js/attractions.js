@@ -12,19 +12,28 @@ db.fetchAttractions()
 })
 .then(result => {
     let fragment = document.createDocumentFragment();
+    let mainComponent = document.createElement("div");
+    let title = document.createElement("h1");
+    mainComponent.className = "mainComponent row";
+    title.className = "title";
+    title.innerText = "All Attractions";
+    mainComponent.appendChild(title);
     result.forEach(type => {
-        let card = document.createElement("div");
-        card.className = "col-md-4";
+        let outterCard = document.createElement("div");
+        let innerCard = document.createElement("div");
         let header = document.createElement("h3");
-        header.innerText = type.name;
-        card.appendChild(header);
         let description = document.createElement("p");
+        outterCard.className = "col-md-3 mb-4 mx-auto";
+        innerCard.className = "card-body shadow-sm border rounded innerCard";
+        header.innerText = type.name;
         description.innerHTML = type.description;
-        card.appendChild(description);
-        fragment.appendChild(card);
-
+        innerCard.appendChild(header);
+        innerCard.appendChild(description);
+        outterCard.appendChild(innerCard);
+        mainComponent.appendChild(outterCard);
     });
-    return fragment
+    fragment.appendChild(mainComponent);
+    return fragment;
 })
 .then(result => {
     document.querySelector("#allAttractions").appendChild(result);
