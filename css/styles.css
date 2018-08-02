@@ -1,0 +1,19 @@
+#mainDiv {
+    margin: 0px;
+}
+#parkAreas {
+    margin: 0 2em 0 2em;
+}
+#attractionType {
+    margin: 0 2em 0 2em;
+}
+#allAttractions {
+    background-color: lightgray;
+}
+.innerCard {
+    height: 100%;
+    background-color: white;
+}
+.mainComponent {
+    margin: 0 2em 0 2em;
+}
