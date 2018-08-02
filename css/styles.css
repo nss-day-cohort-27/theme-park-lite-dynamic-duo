@@ -6,6 +6,7 @@
 }
 #attractionType {
     margin: 0 2em 0 2em;
+    text-align: center;
 }
 #allAttractions {
     background-color: lightgray;
@@ -33,6 +34,12 @@
 .mainComponent {
     margin: 0 2em 0 2em;
 }
-#attractionType img{
-    width: 50px;
+.image-holder{
+    margin: auto;
+    width: 300px;
+    height: 250px
+}
+.image-holder img{
+    height: 100%;
+    object-fit: cover;
 }
