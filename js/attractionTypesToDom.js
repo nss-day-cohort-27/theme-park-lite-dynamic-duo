@@ -23,7 +23,7 @@ function putAttractionTypesToDom (result) {
     let count = 0;
     result.forEach(function (type) {
         let card = document.createElement("div");
-        card.className = "card col-sm-4";
+        card.className = "card col-sm-4 mx-auto";
         let createImgHolder = document.createElement("div");
         createImgHolder.className = "image-holder";
         let img = document.createElement('img');
