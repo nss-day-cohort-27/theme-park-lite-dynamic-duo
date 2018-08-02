@@ -10,10 +10,29 @@
 #allAttractions {
     background-color: lightgray;
 }
+#parkInfo {
+    text-align: center;
+    align-content: center;
+    background-color: royalblue;
+    color: white;
+    border-bottom: 10px, solid, black;
+}
+#parkInfo h3 {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+#parkInfo p:first-of-type{
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
 .innerCard {
     height: 100%;
     background-color: white;
 }
 .mainComponent {
     margin: 0 2em 0 2em;
+}
+#attractionType img{
+    width: 50px;
 }
