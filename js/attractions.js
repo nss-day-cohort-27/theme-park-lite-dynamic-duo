@@ -15,7 +15,7 @@ db.fetchAttractions()
     let mainComponent = document.createElement("div");
     let title = document.createElement("h1");
     mainComponent.className = "mainComponent row";
-    title.className = "title";
+    title.className = "title col-md-12";
     title.innerText = "All Attractions";
     mainComponent.appendChild(title);
     result.forEach(type => {
