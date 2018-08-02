@@ -1,7 +1,7 @@
 "use strict";
 
 let db = require('./db-calls.js');
-let writeToDom = require("./writingTypeToDom.js");
+let writeToDom = require("./areasToDom.js");
 
 
 let areaInfo = {};
