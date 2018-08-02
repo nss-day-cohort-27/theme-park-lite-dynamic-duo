@@ -1,8 +1,10 @@
 #mainDiv {
+    background: linear-gradient(lightskyblue, royalblue);
     margin: 0px;
 }
 #parkAreas {
     margin: 0 2em 0 2em;
+    padding: 2em;
 }
 #attractionType {
     margin: 0 2em 0 2em;
@@ -10,17 +12,27 @@
 }
 #allAttractions {
     background-color: lightgray;
+    margin: 2em;
+}
+#allAttractions h1{
+    text-align: center;
 }
 #parkInfo {
     text-align: center;
     align-content: center;
-    background-color: royalblue;
+    background: linear-gradient(to bottom right, navy, royalblue);
     color: white;
-    border-bottom: 10px, solid, black;
 }
 #parkInfo h3 {
     font-size: 3em;
     text-transform: uppercase;
+}
+#parkAreas  h3 {
+    text-align: center;
+}
+#parkAreas  p {
+    font-size: .75em;
+    text-align: center;
 }
 #parkInfo p:first-of-type{
     text-align: left;
@@ -37,9 +49,17 @@
 .image-holder{
     margin: auto;
     width: 300px;
-    height: 250px
+    height: 250px;
 }
 .image-holder img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+    border: 2px solid darkslategray;
+    display: block;
     height: 100%;
     object-fit: cover;
+}
+#attractionType div{
+    background-color: whitesmoke;
+    padding: .5em;
 }
